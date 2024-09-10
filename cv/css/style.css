@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #bdc1a6;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav p {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #bdc1a6;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.banner {
+    margin-top: 0;
+}
+/* card */
+
+.card {
+    box-shadow: rgb(194, 187, 160) 0px, 4px, 12,px;
+    border-radius: 28px;
+}
