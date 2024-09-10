@@ -1,0 +1,255 @@
+body {
+    margin: 0;
+    background-color: #97997c;
+}
+
+nav {
+    background-color: #bdc1a6;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav p {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #bdc1a6;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.splash {
+    position: relative;
+    text-align: center;
+    background-position: center;
+
+}
+
+.splash  h1 {
+    color: #252525;
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-family: "Amaranth", sans-serif;
+}
+
+.splash img {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #6682b0;
+    object-fit: cover;
+}
+
+.splash p {
+    font-family: "Amaranth", sans-serif;
+    line-height: 1.6;
+    margin: 20px 0;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+hr {
+    border-style: dotted ; 
+    border-width: 2px;
+    height: 20px; 
+    border-color: black; 
+    background-color:#6682b0;
+    margin: 20px 0; 
+}
+
+section h2 {
+    font-family: "Galindo", sans-serif;
+    color: #1e393d;
+    padding-left: 10px;
+    text-align: left;
+}
+
+.education p {
+    font-family: "Amaranth", sans-serif;
+    line-height: 1.3;
+    margin: 20px 0;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.awards {
+    margin: 10px 0;
+    border-color: #052f73;
+    border-style: dotted;
+    border-width: 3px;
+}
+
+.awards dl {
+    display: grid;
+    font-family: "Amaranth", sans-serif;
+    grid-template-columns: auto 1fr;;
+    padding-left: 30px;
+    margin: 0;
+    text-align: left;
+}
+
+.awards dt {
+    font-weight: bold;  
+}
+
+.awards dd {
+    margin: 0; 
+    padding-left: 10px; 
+}
+
+.skills {
+    font-family: "Amaranth", sans-serif;
+
+}
+
+.skills ul {
+    padding-left: 0;
+    margin: 0;
+    text-align: left;
+    border-width: 3px;
+    font-weight: bold;
+    
+}
+
+.skills li {
+    padding-left: 30px;
+    font-weight: 400;  
+}
+
+.experience {
+    margin: 10px 0;
+    border-color: #052f73;
+    border-style: dotted;
+    border-width: 3px;
+}
+
+.experience dl {
+    display: grid;
+    font-family: "Amaranth", sans-serif;
+    grid-template-columns: auto 1fr;;
+    padding-left: 30px;
+    margin: 0;
+    text-align: left;
+}
+
+.experience dt {
+    font-weight: bold;  
+}
+
+.experience dd {
+    margin: 0; 
+    padding-left: 20px; 
+}
+
+a {
+    color: #645681;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #d34a9f;
+    text-decoration-style: wavy; 
+    font-weight: bold; 
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card{
+    background-color: #303f36;
+    padding: 10px;
+    color: #ffff;
+    font-family: "Amaranth", sans-serif;
+}
+
+.card img {
+    border-style: solid;
+    border-width: 10px;
+    border-color: #5c6070;
+    object-fit: cover;
+}
+
+.card:hover {
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.2);;
+}
+
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Amaranth", sans-serif;
+}
+
+.one-col h1,
+.one-col p {
+    margin: 0;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.one-col form {
+    width: 100%;
+}
+
+.one-col input[type="text"],
+.one-col textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.one-col input[type="submit"] {
+    background-color: #5670d7;
+    color: #ffff;
+    border-radius: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.one-col input[type="submit"]:hover {
+    background-color: #0e33c4;
+}
+
+.amaranth-regular {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .amaranth-bold {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .amaranth-regular-italic {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .amaranth-bold-italic {
+    font-family: "Amaranth", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  .galindo-regular {
+    font-family: "Galindo", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
